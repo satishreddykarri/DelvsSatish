@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "292649605641",
+    "project_id": "fir-401-ff88a",
+    "storage_bucket": "fir-401-ff88a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292649605641:android:6e6ed7819562cb59cd76d8",
+        "android_client_info": {
+          "package_name": "com.example.delvs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlz62_Ox6xaOpRqZxX2WHYnOVNZwtbmJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:text="Enter Your Phone No."
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone No."
+        android:inputType="phone"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/text"
+        android:textSize="20dp"
+        />
+<Button
+    android:id="@+id/btngenerateOTP"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/phone"
+    android:layout_marginBottom="20dp"
+    android:text="Generate OTP"
+    android:textSize="20dp"
+    />
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="OTP"
+        android:inputType="number"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/btngenerateOTP"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnverifyOTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otp"
+        android:layout_marginBottom="20dp"
+        android:text="Verify OTP"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>
