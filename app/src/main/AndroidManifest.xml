@@ -13,6 +13,11 @@
         android:theme="@style/Theme.Delvs"
         tools:targetApi="31">
         <activity
+            android:name=".location_access"
+            android:exported="false"
+            android:label="@string/title_activity_location_access"
+            android:theme="@style/Theme.Delvs" />
+        <activity
             android:name=".register_activity"
             android:exported="false"
             android:label="@string/title_activity_register"

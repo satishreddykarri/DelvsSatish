@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#B0981D56"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".location_access">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="544dp"
+        app:srcCompat="@drawable/locationaccess1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="serif"
+        android:text="LOCATION DETECTION"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="580dp"
+        android:background="#FFC107"
+        android:backgroundTint="#97A82121"
+        android:text="SET YOUR LOCATON" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -44,4 +44,5 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="title_activity_register">register_activity</string>
+    <string name="title_activity_location_access">location_access</string>
 </resources>
