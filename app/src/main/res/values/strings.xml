@@ -45,4 +45,5 @@
     </string>
     <string name="title_activity_register">register_activity</string>
     <string name="title_activity_location_access">location_access</string>
+    <string name="title_activity_location_searching">location_searching</string>
 </resources>

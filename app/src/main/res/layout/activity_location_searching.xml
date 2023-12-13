@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fitsSystemWindows="true"
+    tools:context=".location_searching">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="#"
+        android:text="Enter area,Street name"
+        android:drawableLeft="@drawable/arrow_back_icon"
+        android:textAlignment="gravity"
+        android:gravity="left|center_vertical"
+        android:drawableRight="@drawable/travel_search"
+        android:textColor="#909090"/>
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="#"
+        android:text="Use current location "
+        android:drawableLeft="@drawable/setlocation"
+        android:gravity="left|center_vertical"
+        android:textColor="#909090"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
