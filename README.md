@@ -1,1 +1,2 @@
-This is our design thinking and product innovation project in which we have created an app for the people who are unable to go out for buying the basic productions in the situations where they are unable to go out 
+This is our design thinking and product innovation project in which we have created an app for the people who are unable to go out for buying the basic products in the situations where they are unable to go out due to health conditions or any aspect...
+
